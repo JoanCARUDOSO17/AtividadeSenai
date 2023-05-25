@@ -1,0 +1,98 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lobster', cursive;
+}
+
+body {
+    font-size: 1em;
+    background-color: #4f1181;
+}
+
+/*
+**** Layout ****
+*/
+#area-cabecalho {
+    
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    
+    left: 0;
+    top: 0;
+    background-color: rgb(71, 19, 87);
+    padding: 20px;
+    text-align: center;
+}
+
+
+#area-menu {
+    margin-bottom: 10px;
+    margin-top: auto 0;
+    padding: 0px;
+}
+
+#area-principal {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+.postagem{
+    
+    font-family: 'Lobster', cursive;
+    display:  flex;
+    height: 500px;
+    width: 1000px;
+    padding: 140px;
+    margin-bottom: 40px;
+    background: rgb(63, 20, 104);
+}
+
+#rodape {
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #490aad;
+}
+
+
+/*
+**** formatação do menu ****
+*/
+a {
+    text-decoration: none;
+}
+
+
+a:link,
+a:visited {
+    color: #e2e2e2;
+    padding: 8px 12px;
+}
+
+a:hover {
+    color: #8f64c7;
+    
+}
+
+/*
+**** Formatações geral ****
+*/
+h1 {
+    color: #946eb4;
+    font-size: 2.5em;
+}
+
+.branco {
+    color: rgb(106, 81, 165);
+}
+p{
+    color: #bb68db;
+}

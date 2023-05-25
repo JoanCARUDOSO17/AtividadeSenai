@@ -1,14 +1,93 @@
-#bar-1{
-    border: 1px solid black;
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lobster', cursive;
+}
+body {
+
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #4f1181;
+}
+
+/*
+**** Layout ****
+*/
+#area-cabecalho {
+    font-family: 'Lobster', cursive;
+    height: 100px;
+    width: 100%;
+    
+    left: 0;
+    top: 0;
+    background-color: rgb(71, 19, 87);
+    padding: 20px;
+    text-align: center;
 }
 
 
-header{
-    border: 1px solid;
+#area-menu {
+    margin-bottom: 10px;
+    margin-top: auto 0;
+    padding: 0px;
 }
 
-main{
-    border: thin 10px solid black ;
+#area-principal {
+    width: 1000px;
+    margin: 0 auto;}
+
+#acai{
+    display: flex;
+    height: 400px;
+    justify-content: center;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+a:hover {
+    color: #8f64c7;
     
 }
+
+.opcao{
+    
+    padding-bottom: 10px;
+    color: #bb68db;
+}
+
+
+
+.butao{
+    position: relative;
+    display: inline-block;
+    border: dashed 15px rgb(73, 11, 92);
+    width: 22px;
+    height: 20px;
+    background-color: #FFF;
+    cursor: pointer;
+}
+
+.butao:checked{
+    border:dashed 1px transparent;
+}
+
+button{
+    font-family: 'Lobster', cursive;
+    background-color: white;
+    border: solid 2px  b;
+    border-radius: 20px;
+
+}
+
+.caixa{
+    justify-content:center ;
+    display: flex;
+    
+}
+
 
